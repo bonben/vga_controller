@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/leonardon/Projets/VHDL/newVGA/vga_controller_test_isim_beh.exe" -prj "/home/leonardon/Projets/VHDL/newVGA/vga_controller_test_beh.prj" "work.vga_controller_test" 

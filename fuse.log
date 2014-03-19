@@ -1,0 +1,39 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/leonardon/Projets/VHDL/newVGA/vga_controller_test_isim_beh.exe -prj /home/leonardon/Projets/VHDL/newVGA/vga_controller_test_beh.prj work.vga_controller_test 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/leonardon/Projets/VHDL/newVGA/ipcore_dir/IP_clk.vhd" into library work
+Parsing VHDL file "/home/leonardon/Projets/VHDL/newVGA/vga_controller.vhd" into library work
+Parsing VHDL file "/home/leonardon/Projets/VHDL/newVGA/vga_controller_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 117028 KB
+Fuse CPU Usage: 1600 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,4.0,...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture xilinx of entity IP_clk [ip_clk_default]
+Compiling architecture rtl of entity vga_controller [vga_controller_default]
+Compiling architecture behavior of entity vga_controller_test
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable /home/leonardon/Projets/VHDL/newVGA/vga_controller_test_isim_beh.exe
+Fuse Memory Usage: 707492 KB
+Fuse CPU Usage: 2130 ms
+GCC CPU Usage: 2670 ms
